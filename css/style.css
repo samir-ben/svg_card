@@ -1,0 +1,63 @@
+/*Elements généraux*/
+body {
+	overflow-x: hidden;
+	background-color: #141414;
+	font-family: 'Luckiest Guy', cursive;
+}
+/*contour de la carte*/
+.carte {
+	position: relative;
+	left: 300px;
+	top:200px;
+}
+svg {
+	width: 500px;
+	stroke-width: 5px;
+}
+/*fond*/
+.deux {
+	position: absolute;
+	top: 0px;
+	box-shadow: 5px 17px 20px #565656;
+}
+/*bas rouge*/
+.un {
+	position: absolute;
+	top: 109px;
+	box-shadow: 5px 17px 20px #565656;
+}
+/*lune*/
+.trois {
+	position: absolute;
+	width: 100;
+	top: 15px;
+	left : 370px;
+}
+
+h1 {
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	color: white;
+}
+
+#texte p {
+	position: absolute;
+	top: 160px;
+	left: 40px;
+}
+
+.btn {
+	position: relative;
+	top: 40px;
+	left: 220px;
+}
+
+
+
+/*neige*/
+.snow {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
